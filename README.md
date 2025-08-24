@@ -254,3 +254,20 @@ curl -X POST http://localhost:8000/trigger_report
 # check report
 curl "http://localhost:8000/get_report?report_id=<uuid>"
 ```
+
+## .env file Contents
+```bash
+# Postgres
+POSTGRES_USER=loop
+POSTGRES_PASSWORD=loop
+POSTGRES_DB=store_monitoring
+
+
+# Backend (SQLAlchemy URL)
+DATABASE_URL=postgresql+psycopg2://loop:loop@db:5432/store_monitoring
+
+
+# pgAdmin login
+PGADMIN_EMAIL=admin@example.com
+PGADMIN_PASSWORD=admin123
+```
