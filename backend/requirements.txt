@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+SQLAlchemy
+psycopg2-binary
+alembic
+pydantic
+pandas
+python-dateutil
